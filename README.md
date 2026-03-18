@@ -24,7 +24,8 @@ This repository contains my technical notes and hands-on lab documentation for t
   * **Software Troubleshooting:** OS recovery and application stability.
   * **Operational Procedures:** Documentation, safety, and professionalism.
 
-
+### **🛠️ Practical Labs & CLI**
+**Currently in Progress! [CompTIA A+ Core 1 (220-1201) Technical Lab Logs](Core-1/README.md)**
 
 ### ⏳ Status
 
