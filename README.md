@@ -1,4 +1,4 @@
-# 💻 CompTIA A+ (220-1201 & 220-1202) Study & Technical Labs
+# 💻 CompTIA A+ (220-1201 & 220-1202) Technical Labs
 
 ### 📖 Overview
 
@@ -27,7 +27,7 @@ This repository contains my technical notes and hands-on lab documentation for t
 ### **🛠️ Practical Labs & Study Notes**
 **Currently in Progress! [CompTIA A+ Core 1 (220-1201) Technical Lab Logs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/README.md)**
 
-**Currently in Progress! [CompTIA A+ Core 1 (220-1201) Study Notes](https://github.com/ssaunders91/CompTIA-A-Plus/tree/main/Core-1/Study-Notes)**
+
 ### ⏳ Status
 
   * **Current Stage:** Core 1 (220-1201)
