@@ -33,6 +33,6 @@ This repository contains my technical notes and hands-on lab documentation for t
   * **Current Stage:** Core 1 (220-1201)
   * **Resource:** [Professor Messer's A+ Training](https://www.professormesser.com/)
 
-[⬅️ Back to Profile Hub](https://www.google.com/search?q=https://github.com/ssaunders91)
-
 -----
+
+[⬅️ Back to Profile Hub](https://github.com/ssaunders91)
