@@ -60,6 +60,9 @@ Using the gateway IP identified in the previous lab, I accessed the router's man
 **My takeaway:** Navigating a real-world interface turned the textbook definitions into practical knowledge. It’s one thing to read about a "DHCP Pool," but it's much more valuable to know exactly where to find it when a user's device won't connect.
 
 ---
+[⬅️ Back to Profile Hub](https://www.google.com/search?q=https://github.com/ssaunders91)
+
+-----
 
 ## 🛠️ Skills Demonstrated
 * **CLI Troubleshooting:** Proficient with `ipconfig`, `ping`, and `nslookup`.
