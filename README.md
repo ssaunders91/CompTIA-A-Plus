@@ -1,4 +1,4 @@
-# 💻 CompTIA A+ (220-1201 & 220-1202) Technical Labs
+# 💻 CompTIA A+ (220-1201 & 220-1202) 
 
 ### 📖 Overview
 
