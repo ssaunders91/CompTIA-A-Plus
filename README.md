@@ -26,13 +26,13 @@ This repository contains my technical notes and hands-on lab documentation for t
 
 ### **🛠️ Practical Labs & Study Notes**
 **Currently in Progress! [CompTIA A+ Core 1 (220-1201) Technical Lab Logs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/README.md)**
-
+**Currently in Progress! [CompTIA A+ Core 1 (220-1201) Learning Logs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/Learning-Logs/README.md)**
 
 ### ⏳ Status
 
   * **Current Stage:** Core 1 (220-1201)
   * **Resource:** [Professor Messer's A+ Training](https://www.professormesser.com/)
-
+  * **Resource:** [ExamCompass A+ Practice Tests](https://www.examcompass.com/comptia/a-plus-certification/free-a-plus-practice-tests)
 -----
 
 [⬅️ Back to Profile Hub](https://github.com/ssaunders91)
