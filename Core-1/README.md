@@ -7,8 +7,15 @@ The goal of this project is to document my mastery of the exam objectives throug
 
 ---
 
-## 🛠️ Exam Domains
-The Core 1 exam is divided into five key domains. My progress and notes for each are organised below:
+## 🔗 Quick Links
+
+  * 📂 **[View Technical Labs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/Technical-Labs/README.md)** – My hands-on hardware and networking documentation.
+  * 📊 **[Learning Logs]()** – Tracked performance from ExamCompass and practice sessions.
+
+---
+
+## 🛠️ Exam Sections
+The Core 1 exam is divided into five Sections. My progress and notes for each are organised below:
 
 | Domain | Topic | Status |
 | :--- | :--- | :--- |
@@ -29,13 +36,12 @@ To ensure a deep understanding of the material without violating copyright, I do
 ---
 
 ## 🚀 Key Learning Objectives
-* **Infrastructure:** Install and configure hardware components and devices.
-* **Networking:** Design and manage Small Office/Home Office (SOHO) networks.
+* **Hardware Identification:** Recognise and compare various cables, connectors, and internal components (RAM, CPU, Motherboards).
+* **Networking:** Configure and manage Small Office/Home Office (SOHO) networks and security settings.
 * **Cloud & Virtualisation:** Compare and contrast cloud computing concepts and setup client-side virtualisation.
-* **Troubleshooting:** Apply the 6-step troubleshooting methodology to solve real-world hardware and network issues.
+* **Troubleshooting:** Apply the 6-step troubleshooting methodology to resolve common hardware, peripheral, and network connectivity issues.
 
 ---
-
 
 [⬅️ Back to CompTIA A+ Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/README.md)
 
