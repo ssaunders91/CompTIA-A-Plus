@@ -1,71 +1,42 @@
-# CompTIA A+ (220-1201) | Technical Lab Portfolio
+# CompTIA A+ Core 1 (220-1101) | Study Documentation
 
-## Project Overview
-I am currently working through the CompTIA A+ curriculum with a primary focus on **technical mastery and hands-on proficiency**. While my immediate goal is to acquire the industry-standard knowledge required for a modern IT role, I am documenting these labs to demonstrate my ability to apply theoretical concepts to real-world hardware and networking scenarios. 
+## 📌 Overview
+This repository serves as a comprehensive log of my technical journey towards earning the **CompTIA A+ Certification**. Core 1 (220-1101) focuses on mobile devices, networking technology, hardware, virtualisation, and cloud computing.
 
-Even without the formal examination at this stage, I am committed to maintaining a high standard of documentation and technical accuracy as I build my foundation in IT Support and Systems Administration.
-
----
-
-## 📱 Section 1: Mobile Devices
-### Lab: Mobile Mail & Synchronisation (Objective 1.1)
-
-**The Goal:** To understand the underlying protocols that allow mobile devices to communicate with mail servers and stay in sync.
-
-**What I did:**
-I manually configured a professional mail account, moving away from "automatic" setups to look at the specific port configurations and protocols involved.
-
-**Key Observations:**
-* **Protocols:** Investigated the functional differences between **IMAP** and **POP3**, specifically how they handle data retention on the server.
-* **Security:** Verified the use of **SSL/TLS** encryption to secure data in transit.
-* **Syncing:** Audited the synchronisation of contacts and calendars across multiple platforms to understand cloud-based data consistency.
-
-**My takeaway:** Seeing the actual security certificates and port numbers (like 993 for IMAPS) made the theory much easier to digest. It’s about understanding the "how" behind the daily tasks we take for granted.
+The goal of this project is to document my mastery of the exam objectives through hands-on labs and practice test analysis.
 
 ---
 
-## 🌐 Section 2: Networking
-### Lab: Network Diagnostics & CLI Proficiency (Objective 2.1)
+## 🛠️ Exam Domains
+The Core 1 exam is divided into five key domains. My progress and notes for each are organised below:
 
-**The Goal:** To use Command Line Interface (CLI) tools to map my local network and verify end-to-end connectivity.
-
-**What I did:**
-I used standard Windows CLI tools to gather technical evidence of a stable network connection.
-
-**1. Local Configuration (`ipconfig /all`)**
-I audited my network stack to identify my **MAC Address** and **Default Gateway** (192.168.0.1). I also confirmed that **DHCP** was functioning correctly, as my workstation was successfully leased a private Class C IP address.
-
-**2. Connectivity Testing (`ping`)**
-I tested the path to an external server (`google.com`) using ICMP packets.
-* **Result:** 0% packet loss with an average latency of 28ms. 
-* **Conclusion:** This confirmed that my local hardware, the router, and the ISP’s gateway were all communicating without errors.
-
-**3. DNS Resolution (`nslookup`)**
-I used `nslookup` to verify that my DNS resolver was correctly translating Fully Qualified Domain Names (FQDNs) into IP addresses. This confirmed that Port 53 was open and the "phonebook" of the internet was accessible.
+| Domain | Topic | Status |
+| :--- | :--- | :--- |
+| **1.0** | **Mobile Devices** | Complete |
+| **2.0** | **Networking** | Complete  |
+| **3.0** | **Hardware** | In Progress |
+| **4.0** | **Virtualisation & Cloud** | Not Started |
+| **5.0** | **Hardware & Network Troubleshooting** | Not Started |
 
 ---
 
-### Lab: SOHO Router Security Audit (Objective 2.3)
+## 📓 Study Methodology
+To ensure a deep understanding of the material without violating copyright, I document my progress using:
 
-**The Goal:** To navigate a real-world Small Office/Home Office (SOHO) router interface and audit its security posture.
+* **Performance Tracking:** Logging scores from [ExamCompass](https://www.examcompass.com) to identify and target weak sub-domains.
+* **Lab Documentation:** Step-by-step write-ups of hardware builds and SOHO (Small Office/Home Office) router configurations.
 
-**What I did:**
-Using the gateway IP identified in the previous lab, I accessed the router's management GUI to review its configuration.
-
-**Findings:**
-* **Wireless Security:** Confirmed the use of **WPA2-PSK (AES)**, which is the current industry standard for secure home networking.
-* **DHCP Management:** Located the IP address pool and verified the lease settings for local clients.
-* **SSID Configuration:** Checked the broadcast settings and frequency channels to ensure optimal performance.
-
-**My takeaway:** Navigating a real-world interface turned the textbook definitions into practical knowledge. It’s one thing to read about a "DHCP Pool," but it's much more valuable to know exactly where to find it when a user's device won't connect.
-
------
-
-## 🛠️ Skills Demonstrated
-* **CLI Troubleshooting:** Proficient with `ipconfig`, `ping`, and `nslookup`.
-* **Network Admin:** Understanding of IP addressing, DNS hierarchy, and Gateway routing.
-* **Security Awareness:** Auditing WPA2/AES encryption and SOHO best practices.
 ---
+
+## 🚀 Key Learning Objectives
+* **Infrastructure:** Install and configure hardware components and devices.
+* **Networking:** Design and manage Small Office/Home Office (SOHO) networks.
+* **Cloud & Virtualisation:** Compare and contrast cloud computing concepts and setup client-side virtualisation.
+* **Troubleshooting:** Apply the 6-step troubleshooting methodology to solve real-world hardware and network issues.
+
+---
+
+
 [⬅️ Back to CompTIA A+ Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/README.md)
 
 [⬅️ Back to Profile Hub](https://github.com/ssaunders91)
