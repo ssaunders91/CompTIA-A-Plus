@@ -1,4 +1,4 @@
-# CompTIA A+ (220-1201) | Technical Lab Portfolio
+# CompTIA A+ (220-1201) Core 1 | Technical Lab Portfolio
 
 ## Project Overview
 I am currently working through the CompTIA A+ curriculum with a primary focus on **technical mastery and hands-on proficiency**. While my immediate goal is to acquire the industry-standard knowledge required for a modern IT role, I am documenting these labs to demonstrate my ability to apply theoretical concepts to real-world hardware and networking scenarios. 
