@@ -25,8 +25,9 @@ This repository contains my technical notes and hands-on lab documentation for t
   * **Operational Procedures:** Documentation, safety, and professionalism.
 
 ### **🛠️ Practical Labs & Study Notes**
-**Currently in Progress! [CompTIA A+ Core 1 (220-1201) Technical Lab Logs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/README.md)**
-**Currently in Progress! [CompTIA A+ Core 1 (220-1201) Learning Logs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/Learning-Logs/README.md)**
+**Currently in Progress! ⏳ [CompTIA A+ Core 1 (220-1201) Technical Lab Logs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/README.md)**
+
+**Currently in Progress! ⏳ [CompTIA A+ Core 1 (220-1201) Learning Logs](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/Learning-Logs/README.md)**
 
 ### ⏳ Status
 
