@@ -9,11 +9,11 @@ This directory serves as a chronological record of my progress through the CompT
 
 | Quiz | Topic | Score | Status |
 | :--- | :--- | :--- | :--- |
-| 1.1 | Mobile Hardware & Servicing | **76%** | 🟡 Reviewing |
-| 1.2 | Connection Methods | **82%** | 🟢 Pass |
-| 1.3 | Mobile Accessories | **94%** | 🟢 Pass |
-| 1.4 | Network Connectivity | **82%** | 🟢 Pass |
-| 1.5 | Application Support | **83%** | 🟢 Pass |
+| 1.1 | Mobile Hardware & Servicing | **76.19%** | 🟡 To re-do  |
+| 1.2 | Connection Methods | **81.82%** | 🟢 Pass |
+| 1.3 | Mobile Accessories | **94.12%** | 🟢 Pass |
+| 1.4 | Network Connectivity | **81.82%** | 🟢 Pass |
+| 1.5 | Application Support | **83.33%** | 🟢 Pass |
 
 ---
 
@@ -39,7 +39,71 @@ This directory serves as a chronological record of my progress through the CompT
 
 ---
 
-# ** Work In Progress**
+## 📈 Section 2 Quiz Results
+
+| Quiz | Topic | Score | Status |
+| :--- | :--- | :--- | :--- |
+| 2.1 | Network Protocols | **75%** | 🟡 To re-do |
+| 2.2 | TCP & UDP Ports | **94.12%** | 🟢 Pass |
+| 2.3 | Wireless Networking Technologies | **94.74%** | 🟢 Pass |
+| 2.4 | Network Services | **95%** | 🟢 Pass |
+| 2.5 | Network Configuration Concepts | **93.33%** | 🟢 Pass |
+| 2.6 | Common Networking Hardware | **85.19%** | 🟢 Pass |
+| 2.7 | IP Addressing | **73.08%** | 🟡 To re-do  |
+| 2.8 | Internet Connection Types | **90%** | 🟢 Pass |
+| 2.9 | Network Types | **100%** | 🟢 Pass |
+| 2.10 | Networking Tools | **87.5%** | 🟢 Pass |
+
+---
+
+## 📓 Lessons Learnt & Knowledge Gaps
+
+### 2.1 Network Protocols
+* **Telnet Security:** I missed that **Telnet** actually provides username and password authentication. Even though it transmits data in plaintext (unencrypted), the login handshake still exists.
+* **SMTP vs. Retrieval:** SMTP is strictly for **sending** mail. I incorrectly selected "Retrieving email"; that role belongs to POP3 or IMAP.
+* **IMAP Syncing:** IMAP is the protocol used to sync folders across multiple devices, which is its primary advantage over POP3.
+* **NetBIOS:** The API used for host-to-host communication on a LAN is **NetBIOS**, not TCP/IP.
+
+### 2.2 TCP & UDP Ports
+* **Telnet Port:** I misidentified the port as 22. Telnet uses **TCP Port 23**, while Port 22 is reserved for **SSH**.
+* **Port Knowledge:** Reinforced Port **445** for SMB/CIFS and Port **3389** for RDP.
+
+### 2.3 Wireless Networking Technologies
+* **Channel Width:** Increasing channel width **increases data throughput** but also increases the risk of radio frequency interference.
+* **Frequencies:** **2.4 GHz** provides the longest range and best penetration, while **5 GHz** offers more non-overlapping channels for high-density areas.
+
+
+### 2.4 Network Services
+* **AAA Protocols:** **TACACS+** is the TCP-based enterprise solution that separates AAA functions. I mistakenly chose OAuth.
+* **Spam Gateway:** This device is specifically used to monitor inbound communication to block malicious or unwanted messages.
+
+### 2.5 Network Configuration Concepts
+* **DNS Records:** I learned that **AAAA records** map hostnames to 128-bit **IPv6** addresses, while **A records** are for 32-bit IPv4 addresses.
+* **DHCP Scope:** A DHCP **Scope** is the specific range of IP addresses available for dynamic assignment.
+
+### 2.6 Common Networking Hardware
+* **Managed Switches:** I reinforced that a **Managed Switch** is required for advanced features like **VLANs**, Port Mirroring, and Quality of Service (QoS).
+* **Hub vs. Bridge:** A Hub is a legacy broadcast device, while a **Bridge** is used to connect two network segments using MAC addresses.
+
+### 2.7 IP Addressing
+* **APIPA:** A **169.254.x.x** address is a "Link-Local" address used when a client cannot obtain an address from a DHCP server.
+* **IPv6 Loopback:** I noted that **::1** is the IPv6 loopback address (the equivalent of 127.0.0.1).
+* **Subnet Masks:** I learned that a subnet mask is used by a device to determine which part of an IP address belongs to the network vs. the host.
+
+### 2.8 Internet Connection Types
+* **Satellite Latency:** High latency is the primary drawback of **Satellite** internet because the signal has to travel thousands of miles to space and back.
+* **Physical Media:** **DSL** uses copper phone lines, while **Cable** uses coaxial TV lines.
+
+### 2.9 Network Types
+* **Network Scopes:** Correctly distinguished between **PAN** (Bluetooth), **LAN** (Local), **MAN** (City), and **WAN** (Global/Country-wide).
+
+### 2.10 Networking Tools
+* **Physical Identification:** A **Toner Probe** is used to find a specific wire in a bundle of cables.
+* **Testing:** A **Loopback Plug** is used to test the physical port of a network interface card (NIC) to see if it is functioning.
+
+
+
+## ** Work In Progress**
 
 
 
