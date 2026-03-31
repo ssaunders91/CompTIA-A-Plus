@@ -51,6 +51,3 @@ To ensure a deep understanding of the material without violating copyright, I do
 
 [⬅️ Back to Profile Hub](https://github.com/ssaunders91)
 
------
-
-**Would you like me to help you update the Learning Log README as well to reflect the 1201 numbering?**
