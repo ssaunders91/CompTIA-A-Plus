@@ -1,4 +1,4 @@
-# 📊CompTIA A+ Certification Core 1 (220-1201) Study & Practice Logs **In Progress**
+# 💻CompTIA A+ Certification Core 1 (220-1201) Study & Practice Logs 
 
 This directory serves as a chronological record of my progress through the CompTIA A+ Core 1 curriculum. It tracks my performance on practice materials and highlights areas for further technical review.
 
@@ -182,6 +182,7 @@ This directory serves as a chronological record of my progress through the CompT
 * **Laser Cycle:** I clarified that the **Imaging Drum** is the component that holds the negative charge during the laser printing process.
 
 * **Bonding:** I reinforced that the **Fuser** assembly uses heat and pressure to permanently bond toner to the paper fibres.
+---
 
 ## ** Work In Progress**
 
