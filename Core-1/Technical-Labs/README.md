@@ -114,8 +114,11 @@ I identified the Graphics Processing Unit (GPU) to understand the system's video
 ---
 
 ## ** Work In Progress**
+
 ---
+[⬅️ Back to Profile Hub](https://github.com/ssaunders91)
+
 [⬅️ Back to CompTIA A+ Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/README.md)
 
-[⬅️ Back to Profile Hub](https://github.com/ssaunders91)
+[⬅️ Back to CompTIA A+ Core 1 Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/README.md)
 
