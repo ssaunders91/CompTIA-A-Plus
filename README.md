@@ -10,7 +10,7 @@ This repository contains my technical notes and hands-on lab documentation for t
 
 ## 📑 Study Areas
 
-### **Core 1 (220-1201): Hardware & Networking**
+### **[Core 1 (220-1201)](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/README.md): Hardware & Networking**
 
   * **Mobile Devices:** Laptop hardware and mobile synchronisation.
   * **Networking:** IP addressing, ports, protocols, and SOHO configuration.
