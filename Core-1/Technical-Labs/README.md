@@ -59,12 +59,58 @@ Using the gateway IP identified in the previous lab, I accessed the router's man
 
 **My takeaway:** Navigating a real-world interface turned the textbook definitions into practical knowledge. It’s one thing to read about a "DHCP Pool," but it's much more valuable to know exactly where to find it when a user's device won't connect.
 
------
+---
 
-## 🛠️ Skills Demonstrated
-* **CLI Troubleshooting:** Proficient with `ipconfig`, `ping`, and `nslookup`.
-* **Network Admin:** Understanding of IP addressing, DNS hierarchy, and Gateway routing.
-* **Security Awareness:** Auditing WPA2/AES encryption and SOHO best practices.
+## 🖥️ Section 3: Hardware
+### Lab: System Inventory & Visual Component Identification (Objectives 3.4 - 3.8)
+
+**The Goal:** To identify the specific internal hardware components of a live system using OS-level tools and map them to their physical form factors and socket types.
+
+**What I did:**
+Using the **System Information (msinfo32)** tool and **Task Manager**, I audited the technical specifications of a Windows workstation. I practised "data sanitisation" by masking sensitive identifiers while retaining the technical data required for hardware support and inventory management.
+
+**1. Motherboard & CPU Identification**
+I identified the Processor and BIOS mode to determine the system architecture and firmware security capabilities.
+* **Motherboard:** Generic OEM (Intel Gemini Lake Entry)
+* **CPU:** Intel Celeron J4105 @ 1.50GHz (4 Cores)
+* **BIOS Mode:** **UEFI**
+* **Technical Context:** By confirming the **UEFI** BIOS mode, I verified that the system supports modern security features such as **Secure Boot** and is capable of handling GPT (GUID Partition Table) drives larger than 2TB. The Celeron J4105 is a System-on-a-Chip (SoC) design, meaning the CPU and many motherboard functions are integrated for high energy efficiency.
+
+**2. Memory (RAM) Audit**
+I investigated the system memory profile to check for performance modes and physical expansion availability.
+* **Speed:** 2133 MT/s
+* **Slots Used:** 2 of 4
+* **Form Factor:** **DIMM**
+* **Technical Context:** Identifying the form factor as **DIMM** confirms this is a desktop-class motherboard. Since **2 of 4 slots** are occupied, the system is likely configured for **Dual-Channel memory**, which doubles the communication bandwidth between the RAM and the CPU. The 2133 MT/s speed is the baseline for DDR4, providing a stable environment for office and administrative tasks.
+
+**3. Graphics & Expansion**
+I identified the Graphics Processing Unit (GPU) to understand the system's video rendering capabilities and shared resources.
+* **GPU:** Intel UHD Graphics 600
+* **Interface:** Integrated (Intel Goldmont Plus)
+* **Technical Context:** This system utilises **Integrated Graphics**, meaning the GPU is built into the CPU die and shares the system RAM (UMA - Unified Memory Architecture). This is an ideal configuration for low-power workstations where a dedicated (discrete) PCIe graphics card is not required for standard business applications.
+
+**My takeaway:** A key skill in IT support is the ability to identify hardware specifications without opening the case. By using these administrative tools, I was able to determine the system's upgrade path (two empty RAM slots) and its firmware security status (UEFI) without any physical downtime.
+
+---
+
+## 🛠️ Skills Demonstrated 
+
+### **Section 1: Mobile Devices**
+* **Protocol Proficiency:** In-depth understanding of **IMAP, POP3, and SMTP** for mobile mail configuration.
+* **Security Implementation:** Verified deployment of **SSL/TLS** encryption and digital certificates for securing data in transit.
+* **Cloud Synchronisation:** Managed cross-platform data consistency for contacts, calendars, and application data.
+
+### **Section 2: Networking**
+* **CLI Troubleshooting:** Proficient in using Windows command-line tools (`ipconfig`, `ping`, `nslookup`) to diagnose connectivity issues.
+* **Network Administration:** Solid understanding of **DHCP** leasing, **DNS** hierarchy (Port 53), and default gateway routing.
+* **Security Auditing:** Experienced in auditing SOHO router configurations, specifically **WPA2-PSK (AES)** encryption and SSID management.
+
+### **Section 3: Hardware**
+* **Administrative Tools:** Proficient in using `msinfo32` and Task Manager for hardware auditing and inventory management.
+* **System Architecture:** Clear understanding of **SoC (System-on-a-Chip)**, Integrated Graphics, and the advantages of **UEFI** over Legacy BIOS.
+* **Performance Logic:** Ability to interpret RAM slot usage and the performance benefits of **Dual-Channel** memory bandwidth.
+* **Information Security:** Practised technical **data sanitisation** by removing sensitive OEM strings and personal identifiers from public-facing documentation.
+
 ---
 [⬅️ Back to CompTIA A+ Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/README.md)
 
