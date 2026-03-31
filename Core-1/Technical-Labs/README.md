@@ -112,6 +112,9 @@ I identified the Graphics Processing Unit (GPU) to understand the system's video
 * **Information Security:** Practised technical **data sanitisation** by removing sensitive OEM strings and personal identifiers from public-facing documentation.
 
 ---
+
+## ** Work In Progress**
+---
 [⬅️ Back to CompTIA A+ Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/README.md)
 
 [⬅️ Back to Profile Hub](https://github.com/ssaunders91)
