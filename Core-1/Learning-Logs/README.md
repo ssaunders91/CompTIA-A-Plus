@@ -2,7 +2,6 @@
 
 This directory serves as a chronological record of my progress through the CompTIA A+ Core 1 curriculum. It tracks my performance on practice materials and highlights areas for further technical review.
 
-
 ---
 
 ## 📈 Section 1 Quiz Results
@@ -24,10 +23,13 @@ This directory serves as a chronological record of my progress through the CompT
 * **Signal Routing:** I clarified that Wi-Fi antennas are located in the **display bezel** (screen) to avoid interference from the motherboard, which is a common "trick" question in the exam.
 * **Maintenance:** I reinforced the rule that **compressed air** should never be used on microphones due to their delicate diaphragms, a mistake that can lead to permanent hardware damage.
 
-### **1.2 Connection Methods & 1.3 Accessories**
+### **1.2 Connection Methods**
 * **Mistake Corrected:** I previously confused **Port Replicators** with **Docking Stations**. **Lesson Learnt:** A Docking Station is much more advanced, often using a proprietary connection to extend the system bus, whereas a Port Replicator is essentially a glorified USB hub.
-* **NFC Misconception:** I learnt that NFC isn't just for payments; its role in "Bootstrap" pairing for Bluetooth is a critical technical function for simplifying device synchronisation.
-* **USB-C Utility:** Confirmed that USB-C is the standard for modern reversible connections, supporting data, power, and video (Alt-mode) simultaneously.
+* **Reversibility:** I confirmed that **USB-C** is the modern standard for reversible connections, supporting high-speed data, power delivery, and video (Alt-mode) simultaneously.
+
+### **1.3 Mobile Accessories**
+* **NFC Misconception:** I learnt that NFC isn't just for payments; its role in **Bootstrap** pairing for Bluetooth is a critical technical function for simplifying the synchronisation of devices.
+* **Hands-free Safety:** I reinforced that **Bluetooth headsets** are considered a primary accessory for hands-free communication, particularly in environments where physical tethering to a handset is restricted.
 
 ### **1.4 Network Connectivity**
 * **Mistake Corrected:** I underestimated the role of **Cellular Triangulation**. **Lesson Learnt:** While GPS is more accurate, cellular location is the essential failover for when a device is indoors or in "urban canyons" where satellite signals are blocked.
@@ -101,7 +103,85 @@ This directory serves as a chronological record of my progress through the CompT
 * **Physical Identification:** A **Toner Probe** is used to find a specific wire in a bundle of cables.
 * **Testing:** A **Loopback Plug** is used to test the physical port of a network interface card (NIC) to see if it is functioning.
 
+---
 
+## 📈 Section 3 Quiz Results
+
+| Quiz | Topic | Score | Status |
+| :--- | :--- | :--- | :--- |
+| 3.1 | Display Devices | **85.71%** | 🟢 Pass |
+| 3.2 | Cabling | **84.13%** | 🟢 Pass |
+| 3.3 | Connectors | **95.65%** | 🟢 Pass |
+| 3.4 | RAM | **84.85%** | 🟢 Pass |
+| 3.5 | Storage Devices | **86.05%** | 🟢 Pass |
+| 3.6 | Motherboard | **78.13%** | 🟡 To re-do |
+| 3.7 | BIOS | **84.62%** | 🟢 Pass |
+| 3.8 | CPU | **83.33%** | 🟢 Pass |
+| 3.9 | Power Supply | **80%** | 🟢 Pass |
+| 3.10 | Multifunction Devices | **86.36%** | 🟢 Pass |
+| 3.11 | Printers | **86.67%** | 🟢 Pass |
+
+---
+
+## 📓 Lessons Learnt & Knowledge Gaps
+
+### **3.1 Display Devices**
+* **Mistake Corrected:** I initially thought Mini-LEDs provided true black levels like OLED. **Lesson Learnt:** Only **OLED** achieves true blacks via self-emissive pixels; **Mini-LED** is superior for high peak brightness in well-lit environments.
+* **Component Roles:** I reinforced that a **Digitiser** is the specific component that translates analogue touch/pen input into digital signals for processing.
+* **Legacy Support:** I clarified that an **Inverter** is required for older LCD backlights (converting DC to AC) but is entirely absent in OLED technology.
+
+### **3.2 Cabling**
+* **Media Classification:** I missed that **Coaxial cable** is officially classified as a copper-based transmission medium for cable TV and high-speed internet.
+* **Environmental Needs:** I reinforced that **Direct Burial STP** is the standard for underground infrastructure due to its resistance to moisture and chemicals.
+* **Signal Capabilities:** I learnt that **DisplayPort** is a versatile digital interface capable of carrying both high-definition video and audio signals.
+
+### **3.3 Connectors**
+* **Internal Power:** I previously confused peripheral power. **Lesson Learnt:** The **Molex** connector is the standard 4-pin interface for powering older internal drives and fans.
+* **Fibre Standards:** I clarified that the **LC (Lucent Connector)** is a Small Form Factor connector, distinct from the larger, push-pull SC connectors.
+* **Legacy Communication:** I reinforced that the **DB-9** is the standard copper connector for serial communication on older PCs and networking hardware.
+
+### **3.4 RAM (Memory)**
+* **Cache Mechanics:** I initially underestimated SRAM usage. **Lesson Learnt:** **SRAM** is utilised for CPU cache because it is much faster than the DRAM used for system memory.
+* **Compatibility:** I reinforced that RAM generations (DDR3, DDR4, etc.) are **not backward compatible**; the physical notch is moved on each generation to prevent incorrect installation.
+* **Error Handling:** I clarified the difference between **Parity** (detection only) and **ECC** (detection and correction), noting that desktops usually use Non-ECC.
+
+### **3.5 Storage Devices**
+* **Cable Limits:** I learnt that both SATA II and SATA III specify a maximum cable length of **1 metre** and support only **one device** per cable.
+* **Transfer Speeds:** I reinforced that **SATA Revision 2.0** supports 3 Gbps, while **Revision 3.0** supports 6 Gbps.
+* **External Specs:** I confirmed that **eSATA** supports hot-swapping and allows for longer 2-metre cables compared to internal SATA.
+
+### **3.6 Motherboard**
+* **Standard Sizes:** I mistakenly identified ITX as the desktop standard. **Lesson Learnt:** **ATX** is the standard for full-size desktops, while **ITX** is the smallest common form factor.
+* **Power Logic:** I clarified that the power and reset switches plug into **Front Panel Headers** on the motherboard, not directly into the power supply.
+
+* **Socket Restrictions:** I reinforced that motherboards are built for specific CPU manufacturers; you cannot use an AMD CPU in an Intel-based motherboard.
+
+### **3.7 BIOS / UEFI**
+* **Security Hardware:** I learnt that the **TPM (Trusted Platform Module)** is a dedicated chip for storing cryptographic keys and ensuring platform integrity.
+* **Access Control:** I clarified the difference between a **Boot Password** (stops the OS from loading) and a **Supervisor Password** (protects the BIOS settings themselves).
+* **Configuration:** I reinforced that drive boot priority is adjusted within the **Boot Options** menu of the BIOS/UEFI.
+
+### **3.8 CPU**
+* **Architectures:** I reinforced that **x86** designates 32-bit architecture, while **x64** is the 64-bit standard.
+* **Thermal Management:** I learnt that a **Heat sink** is a passive cooling device, and **Thermal Paste** is required specifically to bridge the gap between the CPU and the heat sink.
+
+* **Virtualisation Tech:** I distinguished between **VT-x** (Intel) and **AMD-V** (AMD) hardware enhancements.
+
+### **3.9 Power Supply**
+* **Rail Voltages:** I missed that USB ports and smaller logic circuits draw from the **5V rail**, while the **12V rail** is reserved for high-power components like GPUs.
+* **Power Units:** I reinforced that a PSU's total output capacity is measured in **Watts**.
+* **Redundancy:** I learnt that **Redundant PSUs** are critical in enterprise environments for load balancing and automatic failover.
+
+### **3.10 Multifunction Devices (MFDs)**
+* **Scanning Automation:** I reinforced that the **ADF (Automatic Document Feeder)** is the component responsible for pulling multiple pages through the scanner automatically.
+* **PDL Differences:** I clarified that **PostScript** is preferred for high-end graphics and accuracy, while **PCL** is more efficient and faster for general office text.
+* **Networking:** I confirmed that **802.11x (Wi-Fi)** is the standard wireless protocol for modern office MFDs.
+
+### **3.11 Printers**
+* **Consumables:** I learnt that **Thermal printers** require no ink or toner, as they use heat-sensitive paper to create images.
+* **Laser Cycle:** I clarified that the **Imaging Drum** is the component that holds the negative charge during the laser printing process.
+
+* **Bonding:** I reinforced that the **Fuser** assembly uses heat and pressure to permanently bond toner to the paper fibres.
 
 ## ** Work In Progress**
 
