@@ -2,6 +2,7 @@
 
 This directory serves as a chronological record of my progress through the CompTIA A+ Core 1 curriculum. It tracks my performance on practice materials and highlights areas for further technical review.
 
+
 ---
 
 ## 📈 Section 1 Quiz Results
@@ -186,10 +187,9 @@ This directory serves as a chronological record of my progress through the CompT
 
 ## ** Work In Progress**
 
-
-
 ---
+[⬅️ Back to Profile Hub](https://github.com/ssaunders91)
 
 [⬅️ Back to CompTIA A+ Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/README.md)
 
-[⬅️ Back to Profile Hub](https://github.com/ssaunders91)
+[⬅️ Back to CompTIA A+ Core 1 Hub](https://github.com/ssaunders91/CompTIA-A-Plus/blob/main/Core-1/README.md)
